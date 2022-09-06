@@ -14,6 +14,7 @@ from requests.exceptions import Timeout, TooManyRedirects
 def cotacao():
 
     sua_api_key = sua_api_key = config('sua_chave', default=None)
+    
 
     url = """
     https://pro-api.coinmarketcap.com/v1/cryptocurrency/listings/latest"""
