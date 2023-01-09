@@ -1,4 +1,4 @@
-# CriptoExcel_Python
+# Crypto Worksheet Python
 ## Ambiente virtual e Dependências:
 Criando ambiente virtual:
 ```
@@ -15,10 +15,10 @@ Instale as dependências:
 pip install -r core/requirements.txt
 ```
 
+
 ## Objetivo:
 
 Criar uma planilha cripto, onde mostre às 100 principais criptomoedas.
-
 
 
 ## Como Funciona:
@@ -26,6 +26,7 @@ Criar uma planilha cripto, onde mostre às 100 principais criptomoedas.
 Basicamente, consumo a API do CoinMarketingCap,
 depois uso a Lib openpyxl para construir uma planilha
 com as informações retornadas.
+
 
 ## Observação:
 
@@ -36,7 +37,6 @@ para ter acesso ao token de usuário.
 ## O que aprendi:
 
 Aprendi muito sobre a API do CoinMarketCap.
-
 
 
 ## Tecnologias utilizadas:
