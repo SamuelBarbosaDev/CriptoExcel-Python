@@ -14,34 +14,36 @@ Instale as dependências:
 ```
 pip install -r core/requirements.txt
 ```
----
+
 ## Objetivo:
 
-Criar uma planilha cripto, onde mostre ás 100 principais criptos.
+Criar uma planilha cripto, onde mostre às 100 principais criptomoedas.
 
 
----
+
 ## Como Funciona:
 
-Basicamente, consumo a api do coinmarketing cap,
-depois uso a lib openpyxl para construir uma planilha
+Basicamente, consumo a API do CoinMarketingCap,
+depois uso a Lib openpyxl para construir uma planilha
 com as informações retornadas.
 
+## OBS:
 
----
+É necessário que você crie uma conta no [CoinMarketCap API](https://pro.coinmarketcap.com/login/)
+para ter acesso ao token de usuário.
+
+
 ## O que aprendi:
 
-Aprendi muito sobre a api do coinmarketing cap.
+Aprendi muito sobre a API do CoinMarketCap.
 
 
----
+
 ## Tecnologias utilizadas:
 
-- Linguagens:
-    - Python
-  
-- Libs:
-    - openpyxl
+openpyxl| requests  | python-decouple | python
+ ------ | --------- | --------------- | ---------
+ 3.0.10 | 2.28.1    | 3.6             | 3.10.6
 
 ---
 Linkedin: <https://www.linkedin.com/in/samuel-barbosa-dev/> 
