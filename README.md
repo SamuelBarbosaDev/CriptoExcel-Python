@@ -27,7 +27,7 @@ Basicamente, consumo a API do CoinMarketingCap,
 depois uso a Lib openpyxl para construir uma planilha
 com as informações retornadas.
 
-## OBS:
+## Observação:
 
 É necessário que você crie uma conta no [CoinMarketCap API](https://pro.coinmarketcap.com/login/)
 para ter acesso ao token de usuário.
