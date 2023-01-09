@@ -1,25 +1,49 @@
-<h1>CriptoExcel-Python</h1>
-<h3>Objetivo:</h3>
-    <p>
-     Criar uma planilha cripto, onde mostre ás 100 principais criptos.
-    </p>
+# CriptoExcel_Python
+## Ambiente virtual e Dependências:
+Criando ambiente virtual:
+```
+python3 -m venv core/venv
+```
 
-<h3>Como Funciona:</h3>
-    <p>
-        Basicamente, consumo a api do coinmarketing cap,
-        depois uso a lib openpyxl para construir uma planilha
-        com as informações retornadas.
-    </p>
+Entrando no ambiente virtual:
+```
+source core/venv/bin/activate
+```
 
-<h3> O que aprendi:</h3>
-    <p>
-        Aprendi muito sobre a api do coinmarketing cap.
-    </p>
+Instale as dependências:
+```
+pip install -r core/requirements.txt
+```
+---
+## Objetivo:
 
-<h3>Tecnologias utilizadas:</h3>
+Criar uma planilha cripto, onde mostre ás 100 principais criptos.
 
-  - Linguagens:
+
+---
+## Como Funciona:
+
+Basicamente, consumo a api do coinmarketing cap,
+depois uso a lib openpyxl para construir uma planilha
+com as informações retornadas.
+
+
+---
+## O que aprendi:
+
+Aprendi muito sobre a api do coinmarketing cap.
+
+
+---
+## Tecnologias utilizadas:
+
+- Linguagens:
     - Python
   
-  - Libs:
+- Libs:
     - openpyxl
+
+---
+Linkedin: <https://www.linkedin.com/in/samuel-barbosa-dev/> 
+
+E-mail: <samueloficial@protonmail.com>
